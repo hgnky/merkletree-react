@@ -1,0 +1,27 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../public/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.claim-box {
+  color: white;
+  min-width: 500px;
+  max-width: 500px;
+  border: 1px solid rgb(121, 121, 121);
+  border-radius: 10px;
+  background-color: #0b10128a;
+}
+
+@media screen and (max-width: 500px) {
+  .claim-box {
+    display: block;
+    margin: auto;
+    width: 90% !important;
+  }  
+}
